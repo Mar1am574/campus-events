@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Events - Event Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox">
+    <label for="dark-mode-toggle" class="dark-mode-label">Dark mode</label>
+    <div class="site-wrapper">
+        <header>
+            <h1>Campus Events</h1>
+            <p>Check the information before you register.</p>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="event-details.html" aria-current="page">Event Details</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="registration.html">Register</a>
+            </nav>
+        </header>
+        <main>
+            <section class="details event-detail" id="culture"><img src="assets/culture.svg" alt="Students celebrating different cultures"><h2>Campus Culture Day</h2><p><strong>Date:</strong> 22 October 2026</p><p><strong>Time:</strong> 12:00 PM - 4:00 PM</p><p><strong>Place:</strong> Main Courtyard</p><p>Share traditions, try food from different cultures, listen to music, and meet new people.</p><h3>Program</h3><ul><li>12:00 PM - Welcome and opening</li><li>1:00 PM - Student culture booths</li><li>2:00 PM - Music and performances</li><li>3:30 PM - Closing activity</li></ul><h3>Event audio</h3><audio controls><source src="assets/event-audio.wav" type="audio/wav">Your browser does not support audio.</audio><p><a class="button" href="registration.html">Register for Campus Culture Day</a></p></section>
+            <section class="details event-detail" id="workshop"><img src="assets/workshop.svg" alt="Students learning together on computers"><h2>Creative Tech Workshop</h2><p><strong>Date:</strong> 27 October 2026</p><p><strong>Time:</strong> 1:00 PM - 3:00 PM</p><p><strong>Place:</strong> Innovation Lab</p><p>Join other students to learn a digital skill and make a small project. Please bring your laptop if you have one.</p><h3>Program</h3><ul><li>1:00 PM - Welcome and introduction</li><li>1:20 PM - Guided activity</li><li>2:30 PM - Share your project</li></ul><p><a class="button" href="registration.html">Register for Creative Tech Workshop</a></p></section>
+            <section class="details event-detail" id="movie"><img src="assets/movie.svg" alt="Outdoor movie screen under the night sky"><h2>Movie Under the Stars</h2><p><strong>Date:</strong> 30 October 2026</p><p><strong>Time:</strong> 6:00 PM - 8:00 PM</p><p><strong>Place:</strong> Garden Lawn</p><p>Bring a blanket, meet your friends, and enjoy a relaxed movie night outdoors.</p><h3>Program</h3><ul><li>6:00 PM - Seating and welcome</li><li>6:15 PM - Movie starts</li><li>8:00 PM - Event ends</li></ul><p><a class="button" href="registration.html">Register for Movie Under the Stars</a></p></section>
+            <section class="form-section"><h2>Leave a Review</h2><form action="#" method="get"><label for="review-name">Your name</label><input type="text" id="review-name" name="review-name" required minlength="2" maxlength="50"><label for="review-email">Your email</label><input type="email" id="review-email" name="review-email" required><label for="review">Your review</label><textarea id="review" name="review" rows="4" required minlength="5" maxlength="500"></textarea><button type="submit">Send review</button></form><p class="note">This is a front-end practice form. It does not save reviews.</p></section>
+        </main>
+        <footer>
+            <p>Campus Events Guide - October 2026</p>
+            <p class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a> <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a> <a href="mailto:campusevents@example.com">Email us</a></p>
+            <p><a href="#top">Back to top</a></p>
+        </footer>
+    </div>
+</body>
+</html>
